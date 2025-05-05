@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #034efc;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact {
+    font-size: 14px;
+}
+
+.booking-steps {
+    display: flex;
+    justify-content: space-around;
+    background: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.step {
+    padding: 10px;
+    border-radius: 5px;
+    background: #ccc;
+}
+
+.step.active {
+    background: #034efc;
+    color: white;
+}
+
+.route-info {
+    text-align: center;
+    background: #fff;
+    padding: 10px;
+    margin: 20px;
+}
+
+.bus-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bus {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.view-seat {
+    background: #034efc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.seat-layout {
+    text-align: center;
+    margin: 20px;
+}
+
+.seats {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.seat {
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+.confirm {
+    background: #034efc;
+    color: white;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #034efc;
+    color: white;
+}
